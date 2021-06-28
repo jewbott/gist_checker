@@ -27,7 +27,7 @@ Result will be in json/text format and will include all gists based on following
 	Status}
 }
 ```
-##Files
+## Files
 There are 3 main files for the application
 main.py - contains the code and basic congig
 requirements.txt - contains required modules and packages that GCP will automaticaly install
