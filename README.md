@@ -35,10 +35,10 @@ app.yaml - settings for google app engine server
 
 ## App Configuration
 Main.py has configuraiton variables that can be changed to suit needs:
-###token - can provide github access token for access to non public gists
-###user - provide github user for checking his/her gists
-###period - how often github should check for updates (in seconds)
-###port - port where app is running
+token - can provide github access token for access to non public gists
+user - provide github user for checking his/her gists
+period - how often github should check for updates (in seconds)
+port - port where app is running
 
 
 ## App Installation
