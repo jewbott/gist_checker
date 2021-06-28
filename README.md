@@ -30,22 +30,22 @@ Result will be in json/text format and will include all gists based on following
 ## Files
 There are 3 main files for the application
 
-main.py - contains the code and basic congig
+**main.py** - contains the code and basic congig
 
-requirements.txt - contains required modules and packages that GCP will automaticaly install
+**requirements.txt** - contains required modules and packages that GCP will automaticaly install
 
-app.yaml - settings for google app engine server
+**app.yaml** - settings for google app engine server
 
 ## App Configuration
 Main.py has configuraiton variables that can be changed to suit needs:
 
-token - can provide github access token for access to non public gists
+**token** - can provide github access token for access to non public gists
 
-user - provide github user for checking his/her gists
+**user** - provide github user for checking his/her gists
 
-period - how often github should check for updates (in seconds)
+**period** - how often github should check for updates (in seconds)
 
-port - port where app is running
+**port** - port where app is running
 
 
 ## App Installation
