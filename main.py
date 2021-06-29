@@ -69,7 +69,7 @@ def compareGist():
         else:
             status = "Not modified"
             logging.info('Gist was not updated:' + str(desc))
-        returned[key] = [user, desc, id, created, updated, status]
+        returned[key] = [{'user':user, 'description': desc, 'gistid':id, 'datecreated': created,'dateupdated': updated,'status': status}]
 
     lastCheck = currenttime
 
